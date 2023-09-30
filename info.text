@@ -1,0 +1,11 @@
+npm run dev
+
+01- "npm i"
+02- "npm concurrently"
+    //Paste in package.json -> script
+    "server": "cd server && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+03- BrowserRouter -> "npm i react-router-dom"
+04- Icons -> "npm i react-icons"
+05- "npm i react-type-animation"
+06- "npm i react-otp-input"
